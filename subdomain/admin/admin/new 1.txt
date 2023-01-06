@@ -1,0 +1,308 @@
+<html>
+<head>
+<?php
+require 'config1.php';
+session_start();
+?>
+<style>
+	body{
+margin-top:0px;	
+ margin-left:20%;
+	margin-right;
+	}
+	#page{
+		width :80%;
+		
+	}
+	
+	 ul{
+	 list-style-type  : none;
+	 display:block;
+	background-color:#333;
+	margin:0px;
+	overflow : hidden ; 
+    width:80%;  
+	}
+
+	li{
+	float : left;
+	
+	}
+	
+	#navmenu{
+                    text-decoration:none;	
+	display:block;
+	color:white;
+
+     font-family:Calibri,Gothic,Comic Sans;             
+	}
+    
+#navmenu:hover{
+background-color:#111;
+color:blue;
+font-family:Calibri,Comic Sans,Arial Black;
+ font-size:20px;
+}
+
+}
+	
+	label{
+	color:black;
+	font-family:Verenda,Tahoma,Arial;
+	font-size:12px;
+	}
+	
+#PageTop{
+	height:90px;
+	width:100%;
+	
+	}
+	
+
+	 p{
+	font-size:15px;
+	font-family:Verenda,Tahoma,Calibri;
+	text-decoration: none;
+	}
+	
+	 #PageRest{
+     float :right ;
+	width:100%;
+	height:100%;
+	}
+	
+	 #Form_side{
+
+	}
+	
+	footer {
+	left : 0px;
+	bottom : 0px;
+	height:10%;
+	width : 80% ;
+	background-color:#111;
+	text-align : center ;
+	color : white ;
+    
+	}
+	
+	
+	#navmenu.active{
+	background-color:#207cca;
+	
+	}
+	.style1 {
+	font-family: Andalus, AngsanaUPC, "Arabic Typesetting";
+	color: #207cca;
+}
+.style7 {font-family: Georgia, "Times New Roman", Times, serif}
+.style8 {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color: #000000;
+}
+.style9 {font-family: Geneva, Arial, Helvetica, sans-serif}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:active {
+	text-decoration: none;
+}
+
+.logout{
+	margin-right:100px;
+	float:right;
+	font-size:16px;
+	color:white;
+	font-family:Calibri,Geneva,Tahoma;
+	}
+	.logout1{
+		background-color:#207cca;
+		display:absolute;
+	}
+#Main_wrapper{
+background : #ffffff;
+margin : 1px auto;
+width : 80%;
+border-radius : 0px;
+
+padding : 10px 20px;
+line-height : 50x;
+}
+ul{
+	list-style-type : none;
+	overflow : hidden;
+	margin : 0px auto;
+	padding : 0px;
+	background : #333;
+    display:block;
+    
+    margin-top : 0px ;
+
+
+	}
+
+
+ li{
+float : left;
+
+ 
+ }
+ 
+ .active,.set_buton,.set_button, .rtab {
+display : block;
+	color : white;
+    font-size : 18px;
+    font-family : Tahoma,geneva,elephant;
+	text-decoration : none;
+	
+   }
+   
+    .active {
+	   background : #207cca;
+	   padding:10px 16px;
+	   
+	   
+   }
+  
+   
+    
+a:hover{
+background : #111;
+color:white;
+
+ 
+}
+
+  .tab{
+float : left ;
+	  
+	  
+  } 
+   
+  .rtab{
+padding:10px 16px;
+
+	  
+	  
+  } 
+  label {
+line-height: 25px;
+	  
+	  
+  }
+  .set_buton{
+	  background:blue;
+   color:white;
+float:left;
+padding:10px 16px;	
+   }
+
+.set_button{
+padding:10px 16px;	 
+
+   color:white;
+     background : #207cca;
+   }
+
+   
+
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head>
+<title>Adminstrator </title>
+	<body>
+	<div id="page">
+	<ul>
+	<p>RecordAScore</p>
+	 
+
+</br>
+<li><a class="set_buton" href="masters_page.php">Exeat Log</a></li>
+<li><a class="set_button" href="house_mem.php">Settings</a></li>
+</br>
+</br>
+</br>
+</br>
+	<div id="Main_wrapper">
+<ul>
+<li><a class="active" href="acc_set.php">My Account</a></li>
+<li><a class="rtab" href="house_mem.php">House Detials</a></li>
+</ul>
+<center><form action="acc_set.php" method="post">
+
+<input type="password" name="password" placeholder="Old password" required/>
+
+</br></br>
+<input type="password" name="new_password" placeholder="Type in the new password" required/>
+</br></br>
+<input type="password" name="cpassword" placeholder="Confirm new password" required/>
+</br></br>
+<input type="submit" name="submit" value="Change">
+</form>
+</center>
+<?php
+if(isset($_POST['submit'])){
+$cpassword=$_POST['cpassword'];	
+$password =$_POST['password'];
+$new_password = $_POST['new_password'];
+$username=$_SESSION['username'];
+
+if($new_password==$cpassword){
+$query="SELECT *FROM housemasters where password='$password' AND username='$username'";
+$query_run =mysql_query($query,$conn1);
+
+if(mysql_num_rows($query_run)>0){
+$query="UPDATE housemasters SET password='$new_password' WHERE username='$username'";
+$query_run=mysql_query($query,$conn1);
+}
+else{
+	
+	echo '<script type="text/javascript"> alert("The old password entered is incorrect ...")</script>';
+}
+if($query_run){
+	
+	echo '<script type="text/javascript"> alert("Changes Saved...")</script>';
+	
+}
+
+else{
+	echo '<script type="text/javascript"> alert("Error...")</script>';
+	
+	
+}
+
+	
+	
+
+	
+	
+}
+
+else{
+echo '<script type="text/javascript"> alert("New Password and Confirm Password do not match")</script>';
+	
+	
+}
+
+}
+
+
+?>
+</div> 
+    <footer>
+	<p>Copyright©2017 AIS learning Hub 2.0 All Rights Reserved</p>
+	<p id="credit">Powered by JabenSoft®</p>
+	</footer>
+    </div>
+	
+	
+	
+
+	
+</body>
+</html>

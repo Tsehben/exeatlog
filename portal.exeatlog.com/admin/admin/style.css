@@ -1,0 +1,99 @@
+#Main_wrapper{
+background : #ffffff;
+margin : 1px auto;
+width : 350px;
+border-radius : 10px;
+border : 2px solid #207cca;
+padding : 5px;
+line-height : 50x;
+}
+#textbox {
+	width : 350px;
+	border : 1px solid #207cca;
+	margin-top : 4px;
+	padding : 8px 0px;
+	
+}
+#class {
+	margin-top : 10px;
+	
+}
+#radio {
+	
+	margin-top : 10px;
+}
+#submit_btn{
+	background : #207cca;
+	color : white;
+	width : 350px;
+	margin-top : 4px;
+	height : 50px;
+	font-size : 25px;
+   font-family : Tahoma,geneva,elephant;
+	}
+ul{
+	list-style-type : none;
+	overflow : hidden;
+	margin : 0px auto;
+	padding : 0px;
+	
+	
+    display:block;
+    
+    margin-top : 30px ;
+
+
+	}
+
+
+
+ 
+
+ 
+ 
+ 
+ .active {
+	display : block;
+	color : white;
+    font-size : 25px;
+    font-family : Tahoma,geneva,elephant;
+	text-decoration : none;
+    text-align:center;
+  
+	   background : #207cca;
+	width:120px;
+height:	30px;
+	   margin-top:10px;
+	   
+   }
+   
+    
+.active:hover{
+background : #111;
+color:white;
+
+ 
+}
+
+  .tab{
+float : left ;
+	  
+	  
+  } 
+   
+  .rtab{
+
+
+	  
+	  
+  } 
+  label {
+line-height: 25px;
+	  
+	  
+  }
+   
+   .usertyp{
+	   
+	   
+   }

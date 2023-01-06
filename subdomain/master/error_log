@@ -1,0 +1,720 @@
+[21-Jan-2019 15:19:32 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: The 'To' number 233200316305 is not a valid phone number. in /home/p68gpk5n6gp9/public_html/htdocs/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/public_html/htdocs/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/public_html/htdocs/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/public_html/htdocs/sms.php(42): Twilio\Rest\Api\V2010\Account\MessageList->create('233200316305', Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/public_html/htdocs/vendor/twilio/sdk/Twilio/Version.php on line 85
+[21-Jan-2019 15:22:53 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers. in /home/p68gpk5n6gp9/public_html/htdocs/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/public_html/htdocs/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/public_html/htdocs/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/public_html/htdocs/sms.php(42): Twilio\Rest\Api\V2010\Account\MessageList->create('+233559292657', Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/public_html/htdocs/vendor/twilio/sdk/Twilio/Version.php on line 85
+[21-Jan-2019 15:23:28 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers. in /home/p68gpk5n6gp9/public_html/htdocs/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/public_html/htdocs/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/public_html/htdocs/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/public_html/htdocs/sms.php(42): Twilio\Rest\Api\V2010\Account\MessageList->create('+233559292657', Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/public_html/htdocs/vendor/twilio/sdk/Twilio/Version.php on line 85
+[21-Jan-2019 15:24:59 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers. in /home/p68gpk5n6gp9/public_html/htdocs/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/public_html/htdocs/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/public_html/htdocs/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/public_html/htdocs/sms.php(42): Twilio\Rest\Api\V2010\Account\MessageList->create('+233561489683', Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/public_html/htdocs/vendor/twilio/sdk/Twilio/Version.php on line 85
+[21-Jan-2019 16:25:59 UTC] PHP Parse error:  syntax error, unexpected '$sent' (T_VARIABLE), expecting '(' in /home/p68gpk5n6gp9/public_html/htdocs/sms.php on line 67
+[21-Jan-2019 16:26:02 UTC] PHP Parse error:  syntax error, unexpected '$sent' (T_VARIABLE), expecting '(' in /home/p68gpk5n6gp9/public_html/htdocs/sms.php on line 67
+[21-Jan-2019 16:26:07 UTC] PHP Parse error:  syntax error, unexpected '$sent' (T_VARIABLE), expecting '(' in /home/p68gpk5n6gp9/public_html/htdocs/sms.php on line 67
+[21-Jan-2019 16:26:27 UTC] PHP Parse error:  syntax error, unexpected '$sent' (T_VARIABLE), expecting '(' in /home/p68gpk5n6gp9/public_html/htdocs/sms.php on line 67
+[21-Jan-2019 16:26:45 UTC] PHP Parse error:  syntax error, unexpected '$sent' (T_VARIABLE), expecting '(' in /home/p68gpk5n6gp9/public_html/htdocs/sms.php on line 67
+[21-Jan-2019 16:31:32 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: The 'To' number 233200316305 is not a valid phone number. in /home/p68gpk5n6gp9/public_html/htdocs/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/public_html/htdocs/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/public_html/htdocs/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/public_html/htdocs/sms.php(42): Twilio\Rest\Api\V2010\Account\MessageList->create('233200316305', Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/public_html/htdocs/vendor/twilio/sdk/Twilio/Version.php on line 85
+[22-Jan-2019 16:10:03 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 491
+[22-Jan-2019 16:10:25 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 491
+[22-Jan-2019 16:10:28 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 491
+[22-Jan-2019 16:19:05 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 491
+[22-Jan-2019 16:21:40 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 491
+[22-Jan-2019 16:23:03 UTC] PHP Parse error:  syntax error, unexpected 'use' (T_USE) in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 491
+[22-Jan-2019 16:29:38 UTC] PHP Parse error:  syntax error, unexpected '$name' (T_VARIABLE), expecting ')' in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 509
+[22-Jan-2019 16:34:07 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:34:07 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:34:07 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 399
+[22-Jan-2019 16:34:07 UTC] PHP Notice:  Undefined index: form in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 400
+[22-Jan-2019 16:34:17 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:34:17 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:34:17 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 399
+[22-Jan-2019 16:34:22 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:34:22 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:34:22 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 399
+[22-Jan-2019 16:35:33 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:35:33 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:35:33 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 399
+[22-Jan-2019 16:35:33 UTC] PHP Notice:  Undefined index: form in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 400
+[22-Jan-2019 16:35:39 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:35:39 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:35:39 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 399
+[22-Jan-2019 16:35:48 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:35:48 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:35:48 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 399
+[22-Jan-2019 16:35:54 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:35:54 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:35:54 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 399
+[22-Jan-2019 16:36:38 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:36:38 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:36:38 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 399
+[22-Jan-2019 16:42:18 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:42:18 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:42:18 UTC] PHP Notice:  Undefined index: form in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 399
+[22-Jan-2019 16:42:18 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 402
+[22-Jan-2019 16:42:22 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:42:22 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:42:22 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 402
+[22-Jan-2019 16:42:26 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:42:26 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:42:26 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 402
+[22-Jan-2019 16:44:32 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:44:32 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:44:32 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 402
+[22-Jan-2019 16:44:37 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:44:37 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:44:37 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 402
+[22-Jan-2019 16:47:35 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:47:35 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:47:35 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 402
+[22-Jan-2019 16:47:35 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:47:35 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:47:35 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 402
+[22-Jan-2019 16:47:35 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:47:35 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:47:35 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 402
+[22-Jan-2019 16:52:13 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:52:13 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:52:13 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:52:13 UTC] PHP Notice:  Undefined index: form in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 399
+[22-Jan-2019 16:52:13 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 402
+[22-Jan-2019 16:52:33 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:52:33 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:52:33 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:52:33 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 402
+[22-Jan-2019 16:52:41 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:52:41 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:52:41 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[22-Jan-2019 16:52:41 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 402
+[23-Jan-2019 12:39:43 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 12:39:43 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 12:39:43 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 12:39:43 UTC] PHP Notice:  Undefined index: form in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 399
+[23-Jan-2019 12:39:43 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 402
+[23-Jan-2019 12:39:43 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 12:39:43 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 12:39:43 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 12:39:43 UTC] PHP Notice:  Undefined index: form in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 399
+[23-Jan-2019 12:39:43 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 402
+[23-Jan-2019 12:39:50 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 12:39:50 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 12:39:50 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 12:39:50 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 402
+[23-Jan-2019 12:40:01 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 12:40:01 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 12:40:01 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 12:40:01 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 402
+[23-Jan-2019 13:14:02 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:14:02 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:14:02 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:14:02 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 399
+[23-Jan-2019 13:14:02 UTC] PHP Notice:  Undefined index: form in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 400
+[23-Jan-2019 13:14:05 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:14:05 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:14:05 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:14:05 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 399
+[23-Jan-2019 13:14:11 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:14:11 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:14:11 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:14:11 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 399
+[23-Jan-2019 13:14:18 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:14:18 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:14:18 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:14:18 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 399
+[23-Jan-2019 13:14:29 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:14:29 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:14:29 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:14:29 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 399
+[23-Jan-2019 13:28:25 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:28:25 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:28:25 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:28:25 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 399
+[23-Jan-2019 13:33:21 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:33:21 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:33:21 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:33:21 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 399
+[23-Jan-2019 13:33:26 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:33:26 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:33:26 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:33:26 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 399
+[23-Jan-2019 13:33:34 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:33:34 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:33:34 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:33:34 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 399
+[23-Jan-2019 13:33:38 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:33:38 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:33:38 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:33:38 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 399
+[23-Jan-2019 13:33:50 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:33:50 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:33:50 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:33:50 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 399
+[23-Jan-2019 13:34:53 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:34:53 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:34:53 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:34:53 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 399
+[23-Jan-2019 13:35:00 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:35:00 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:35:00 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:35:00 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 399
+[23-Jan-2019 13:35:06 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:35:06 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:35:06 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 388
+[23-Jan-2019 13:35:06 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 399
+[23-Jan-2019 13:53:21 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 13:53:21 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 13:53:21 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 13:53:21 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 400
+[23-Jan-2019 13:53:26 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/security.php on line 424
+[23-Jan-2019 13:53:26 UTC] PHP Notice:  Undefined index: form in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/security.php on line 425
+[23-Jan-2019 13:54:01 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 13:54:01 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 13:54:01 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 13:54:01 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 400
+[23-Jan-2019 13:54:01 UTC] PHP Notice:  Undefined index: form in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 401
+[23-Jan-2019 13:54:07 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 13:54:07 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 13:54:07 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 13:54:07 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 400
+[23-Jan-2019 13:54:13 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 13:54:13 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 13:54:13 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 13:54:13 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 400
+[23-Jan-2019 13:54:22 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 13:54:22 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 13:54:22 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 13:54:22 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 400
+[23-Jan-2019 13:54:51 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 13:54:51 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 13:54:51 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 13:54:51 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 400
+[23-Jan-2019 13:55:00 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 13:55:00 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 13:55:00 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 13:55:00 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 400
+[23-Jan-2019 13:57:57 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 13:57:57 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 13:57:57 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 13:58:21 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 13:58:21 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 13:58:21 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 13:58:21 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: The 'To' number 233200316305 is not a valid phone number. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(514): Twilio\Rest\Api\V2010\Account\MessageList->create('233200316305', Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[23-Jan-2019 13:59:32 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 13:59:32 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 13:59:32 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 13:59:32 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: The 'To' number 233200316305 is not a valid phone number. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(514): Twilio\Rest\Api\V2010\Account\MessageList->create('233200316305', Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[23-Jan-2019 14:01:16 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 14:01:16 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 14:01:16 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 14:01:16 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: The 'To' number 233200316305 is not a valid phone number. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(514): Twilio\Rest\Api\V2010\Account\MessageList->create('233200316305', Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[23-Jan-2019 14:14:05 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 14:14:05 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 400
+[23-Jan-2019 14:14:05 UTC] PHP Notice:  Undefined index: form in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 401
+[23-Jan-2019 14:14:10 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 14:14:13 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 14:15:11 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 14:23:30 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 14:28:16 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 14:34:55 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 14:43:54 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 14:43:55 UTC] PHP Notice:  Undefined index: message in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 514
+[23-Jan-2019 14:43:55 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: Message body is required. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(514): Twilio\Rest\Api\V2010\Account\MessageList->create('+233200316305', Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[23-Jan-2019 14:46:05 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 14:46:05 UTC] PHP Notice:  Undefined index: message in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 514
+[23-Jan-2019 14:46:05 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: Message body is required. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(514): Twilio\Rest\Api\V2010\Account\MessageList->create('+233200316305', Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[23-Jan-2019 14:46:43 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 14:46:43 UTC] PHP Notice:  Undefined index: students in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 451
+[23-Jan-2019 14:46:43 UTC] PHP Notice:  Undefined variable: number in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 510
+[23-Jan-2019 14:46:43 UTC] PHP Notice:  Undefined index: message in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 514
+[23-Jan-2019 14:46:43 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: A 'To' phone number is required. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(514): Twilio\Rest\Api\V2010\Account\MessageList->create(NULL, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[23-Jan-2019 14:49:36 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 14:49:36 UTC] PHP Notice:  Undefined index: students in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 451
+[23-Jan-2019 14:49:36 UTC] PHP Notice:  Undefined variable: number in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 510
+[23-Jan-2019 14:49:36 UTC] PHP Notice:  Undefined index: message in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 514
+[23-Jan-2019 14:49:36 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: A 'To' phone number is required. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(514): Twilio\Rest\Api\V2010\Account\MessageList->create(NULL, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[23-Jan-2019 15:09:37 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 15:19:56 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 15:24:50 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 15:28:02 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 15:30:08 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 15:44:30 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 15:44:30 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 534
+[23-Jan-2019 15:44:30 UTC] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 535
+[23-Jan-2019 15:54:42 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 15:54:42 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 400
+[23-Jan-2019 15:54:42 UTC] PHP Notice:  Undefined index: form in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 401
+[23-Jan-2019 15:54:47 UTC] PHP Notice:  Undefined index: form in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/security.php on line 425
+[23-Jan-2019 15:55:16 UTC] PHP Notice:  Undefined index: form in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/security.php on line 425
+[23-Jan-2019 15:55:33 UTC] PHP Notice:  Undefined index: form in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/security.php on line 425
+[23-Jan-2019 15:55:37 UTC] PHP Notice:  Undefined index: form in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/security.php on line 425
+[23-Jan-2019 15:55:56 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 15:55:56 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 400
+[23-Jan-2019 15:55:56 UTC] PHP Notice:  Undefined index: form in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 401
+[23-Jan-2019 15:56:07 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 15:56:57 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 15:56:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 544
+[23-Jan-2019 15:56:57 UTC] PHP Notice:  Undefined variable: number1 in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 550
+[23-Jan-2019 15:56:57 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: A 'To' phone number is required. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(554): Twilio\Rest\Api\V2010\Account\MessageList->create(NULL, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[23-Jan-2019 16:00:17 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 16:00:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 544
+[23-Jan-2019 16:00:18 UTC] PHP Notice:  Undefined variable: number1 in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 551
+[23-Jan-2019 16:00:18 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: A 'To' phone number is required. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(555): Twilio\Rest\Api\V2010\Account\MessageList->create(NULL, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[23-Jan-2019 16:01:39 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 16:01:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 539
+[23-Jan-2019 16:01:39 UTC] PHP Notice:  Undefined variable: number1 in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 551
+[23-Jan-2019 16:01:40 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: A 'To' phone number is required. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(555): Twilio\Rest\Api\V2010\Account\MessageList->create(NULL, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[23-Jan-2019 16:05:12 UTC] PHP Notice:  Undefined index: form in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/security.php on line 425
+[23-Jan-2019 16:05:43 UTC] PHP Notice:  Undefined index: form in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/security.php on line 425
+[23-Jan-2019 16:05:52 UTC] PHP Notice:  Undefined index: form in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/security.php on line 425
+[23-Jan-2019 16:05:56 UTC] PHP Notice:  Undefined index: form in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/security.php on line 425
+[23-Jan-2019 16:06:16 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 16:06:16 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 400
+[23-Jan-2019 16:06:16 UTC] PHP Notice:  Undefined index: form in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 401
+[23-Jan-2019 16:06:31 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 16:07:09 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 16:07:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 539
+[23-Jan-2019 16:07:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 539
+[23-Jan-2019 16:07:09 UTC] PHP Notice:  Undefined variable: number1 in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 551
+[23-Jan-2019 16:07:10 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: A 'To' phone number is required. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(555): Twilio\Rest\Api\V2010\Account\MessageList->create(NULL, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[23-Jan-2019 16:20:55 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 16:20:55 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 400
+[23-Jan-2019 16:20:55 UTC] PHP Notice:  Undefined index: form in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 401
+[23-Jan-2019 16:20:59 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 16:21:14 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 16:21:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 539
+[23-Jan-2019 16:21:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 539
+[23-Jan-2019 16:21:15 UTC] PHP Notice:  Undefined variable: number1 in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 551
+[23-Jan-2019 16:21:15 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: A 'To' phone number is required. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(555): Twilio\Rest\Api\V2010\Account\MessageList->create(NULL, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[23-Jan-2019 16:34:32 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 16:34:32 UTC] PHP Notice:  Undefined variable: number1 in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 550
+[23-Jan-2019 16:34:32 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: A 'To' phone number is required. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(554): Twilio\Rest\Api\V2010\Account\MessageList->create(NULL, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[23-Jan-2019 16:42:20 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 16:42:20 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 400
+[23-Jan-2019 16:42:20 UTC] PHP Notice:  Undefined index: form in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 401
+[23-Jan-2019 16:46:11 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 16:46:29 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 16:46:30 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: The 'To' number 1 is not a valid phone number. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(556): Twilio\Rest\Api\V2010\Account\MessageList->create(1, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[23-Jan-2019 16:53:13 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 16:53:13 UTC] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 539
+[23-Jan-2019 16:53:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 539
+[23-Jan-2019 16:53:13 UTC] PHP Warning:  explode() expects at least 2 parameters, 1 given in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 539
+[23-Jan-2019 16:53:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 539
+[23-Jan-2019 16:53:13 UTC] PHP Notice:  Undefined variable: number1 in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 552
+[23-Jan-2019 16:53:13 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: A 'To' phone number is required. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(556): Twilio\Rest\Api\V2010\Account\MessageList->create(NULL, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[23-Jan-2019 16:54:14 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 16:54:14 UTC] PHP Notice:  Undefined index: students in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 451
+[23-Jan-2019 16:54:14 UTC] PHP Notice:  Undefined variable: number in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 512
+[23-Jan-2019 16:54:15 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: A 'To' phone number is required. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(516): Twilio\Rest\Api\V2010\Account\MessageList->create(NULL, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[23-Jan-2019 16:56:59 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 16:56:59 UTC] PHP Notice:  Undefined index: students in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 451
+[23-Jan-2019 16:56:59 UTC] PHP Notice:  Undefined variable: number in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 512
+[23-Jan-2019 16:56:59 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: A 'To' phone number is required. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(516): Twilio\Rest\Api\V2010\Account\MessageList->create(NULL, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[23-Jan-2019 17:09:25 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 17:09:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 539
+[23-Jan-2019 17:09:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 539
+[23-Jan-2019 17:09:25 UTC] PHP Notice:  Undefined variable: number1 in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 552
+[23-Jan-2019 17:09:25 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: A 'To' phone number is required. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(556): Twilio\Rest\Api\V2010\Account\MessageList->create(NULL, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[23-Jan-2019 17:22:44 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 17:22:44 UTC] PHP Notice:  Undefined index: students in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 451
+[23-Jan-2019 17:22:44 UTC] PHP Notice:  Undefined variable: number in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 512
+[23-Jan-2019 17:22:44 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: A 'To' phone number is required. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(516): Twilio\Rest\Api\V2010\Account\MessageList->create(NULL, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[23-Jan-2019 17:27:05 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 17:27:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 539
+[23-Jan-2019 17:27:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 539
+[23-Jan-2019 17:27:05 UTC] PHP Notice:  Undefined variable: number1 in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 553
+[23-Jan-2019 17:27:05 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: A 'To' phone number is required. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(557): Twilio\Rest\Api\V2010\Account\MessageList->create(NULL, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[23-Jan-2019 17:31:34 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 17:31:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 540
+[23-Jan-2019 17:31:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 540
+[23-Jan-2019 17:31:34 UTC] PHP Notice:  Undefined variable: number1 in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 554
+[23-Jan-2019 17:31:34 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: A 'To' phone number is required. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(558): Twilio\Rest\Api\V2010\Account\MessageList->create(NULL, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[23-Jan-2019 17:33:08 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 17:33:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 540
+[23-Jan-2019 17:33:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 540
+[23-Jan-2019 17:33:08 UTC] PHP Notice:  Undefined variable: number1 in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 554
+[23-Jan-2019 17:33:08 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: A 'To' phone number is required. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(558): Twilio\Rest\Api\V2010\Account\MessageList->create(NULL, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[23-Jan-2019 17:37:18 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 17:39:01 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 17:47:03 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 17:47:03 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 400
+[23-Jan-2019 17:47:03 UTC] PHP Notice:  Undefined index: form in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 401
+[23-Jan-2019 17:47:10 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 17:47:10 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 400
+[23-Jan-2019 17:47:10 UTC] PHP Notice:  Undefined index: form in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 401
+[23-Jan-2019 17:47:25 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[23-Jan-2019 17:47:44 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[24-Jan-2019 11:32:38 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[24-Jan-2019 11:32:38 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 400
+[24-Jan-2019 11:32:38 UTC] PHP Notice:  Undefined index: form in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 401
+[24-Jan-2019 11:32:46 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[24-Jan-2019 11:33:22 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[24-Jan-2019 11:40:05 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[24-Jan-2019 11:40:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function split_str() in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php:540
+Stack trace:
+#0 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 540
+[24-Jan-2019 12:26:16 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[24-Jan-2019 12:26:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 540
+[24-Jan-2019 12:26:16 UTC] PHP Notice:  Undefined variable: number1 in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 542
+[24-Jan-2019 12:26:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 540
+[24-Jan-2019 12:26:16 UTC] PHP Notice:  Undefined variable: number1 in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 542
+[24-Jan-2019 12:26:16 UTC] PHP Notice:  Undefined variable: number1 in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 555
+[24-Jan-2019 12:26:16 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: A 'To' phone number is required. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(559): Twilio\Rest\Api\V2010\Account\MessageList->create(NULL, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[24-Jan-2019 12:28:11 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[24-Jan-2019 12:28:11 UTC] PHP Notice:  Array to string conversion in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 542
+[24-Jan-2019 12:28:11 UTC] PHP Notice:  Array to string conversion in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 542
+[24-Jan-2019 12:28:11 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(559): Twilio\Rest\Api\V2010\Account\MessageList->create(Array, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[24-Jan-2019 12:29:02 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[24-Jan-2019 12:29:02 UTC] PHP Notice:  Array to string conversion in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 542
+[24-Jan-2019 12:29:02 UTC] PHP Notice:  Array to string conversion in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 542
+[24-Jan-2019 12:29:02 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: The 'To' number + is not a valid phone number. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(559): Twilio\Rest\Api\V2010\Account\MessageList->create(Array, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[24-Jan-2019 12:31:55 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[24-Jan-2019 12:31:55 UTC] PHP Warning:  Use of undefined constant row - assumed 'row' (this will throw an Error in a future version of PHP) in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 539
+[24-Jan-2019 12:32:44 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[24-Jan-2019 12:32:44 UTC] PHP Warning:  Use of undefined constant row - assumed 'row' (this will throw an Error in a future version of PHP) in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 539
+[24-Jan-2019 12:32:44 UTC] PHP Warning:  Use of undefined constant row - assumed 'row' (this will throw an Error in a future version of PHP) in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 539
+[24-Jan-2019 12:32:44 UTC] PHP Notice:  Undefined variable: number1 in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 554
+[24-Jan-2019 12:32:44 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: A 'To' phone number is required. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(558): Twilio\Rest\Api\V2010\Account\MessageList->create(NULL, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[24-Jan-2019 12:34:05 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[24-Jan-2019 12:34:05 UTC] PHP Notice:  Undefined variable: number1 in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 555
+[24-Jan-2019 12:34:05 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: A 'To' phone number is required. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(559): Twilio\Rest\Api\V2010\Account\MessageList->create(NULL, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[24-Jan-2019 12:35:24 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[24-Jan-2019 12:35:24 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(560): Twilio\Rest\Api\V2010\Account\MessageList->create(Array, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[24-Jan-2019 12:36:05 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[24-Jan-2019 12:36:06 UTC] PHP Notice:  Array to string conversion in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 544
+[24-Jan-2019 12:36:06 UTC] PHP Notice:  Array to string conversion in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 544
+[24-Jan-2019 12:36:06 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(560): Twilio\Rest\Api\V2010\Account\MessageList->create(Array, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[24-Jan-2019 12:38:22 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[24-Jan-2019 12:38:22 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 539
+[24-Jan-2019 12:38:22 UTC] PHP Notice:  Array to string conversion in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 544
+[24-Jan-2019 12:38:22 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 539
+[24-Jan-2019 12:38:22 UTC] PHP Notice:  Array to string conversion in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 544
+[24-Jan-2019 12:38:23 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: A 'To' phone number is required. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(560): Twilio\Rest\Api\V2010\Account\MessageList->create(Array, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[24-Jan-2019 12:38:48 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[24-Jan-2019 12:38:49 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 539
+[24-Jan-2019 12:38:49 UTC] PHP Notice:  Array to string conversion in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 544
+[24-Jan-2019 12:38:49 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 539
+[24-Jan-2019 12:38:49 UTC] PHP Notice:  Array to string conversion in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 544
+[24-Jan-2019 12:38:49 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: A 'To' phone number is required. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(560): Twilio\Rest\Api\V2010\Account\MessageList->create(Array, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[24-Jan-2019 12:40:14 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[24-Jan-2019 12:40:14 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 539
+[24-Jan-2019 12:40:14 UTC] PHP Notice:  Array to string conversion in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 544
+[24-Jan-2019 12:40:14 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 539
+[24-Jan-2019 12:40:14 UTC] PHP Notice:  Array to string conversion in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 544
+[24-Jan-2019 12:40:14 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: A 'To' phone number is required. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(560): Twilio\Rest\Api\V2010\Account\MessageList->create(Array, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[24-Jan-2019 12:40:35 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[24-Jan-2019 12:40:35 UTC] PHP Notice:  Undefined index: number in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 539
+[24-Jan-2019 12:40:35 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 539
+[24-Jan-2019 12:40:35 UTC] PHP Notice:  Array to string conversion in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 544
+[24-Jan-2019 12:40:35 UTC] PHP Notice:  Undefined index: number in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 539
+[24-Jan-2019 12:40:35 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 539
+[24-Jan-2019 12:40:35 UTC] PHP Notice:  Array to string conversion in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 544
+[24-Jan-2019 12:40:35 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: A 'To' phone number is required. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(560): Twilio\Rest\Api\V2010\Account\MessageList->create(Array, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[24-Jan-2019 12:42:27 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[24-Jan-2019 12:42:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 542
+[24-Jan-2019 12:42:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 542
+[24-Jan-2019 12:42:27 UTC] PHP Notice:  Undefined variable: number1 in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 556
+[24-Jan-2019 12:42:27 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: A 'To' phone number is required. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(560): Twilio\Rest\Api\V2010\Account\MessageList->create(NULL, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[24-Jan-2019 12:48:54 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[24-Jan-2019 12:48:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 542
+[24-Jan-2019 12:48:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 542
+[24-Jan-2019 12:48:54 UTC] PHP Notice:  Undefined variable: number1 in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 556
+[24-Jan-2019 12:48:54 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: A 'To' phone number is required. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(560): Twilio\Rest\Api\V2010\Account\MessageList->create(NULL, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[24-Jan-2019 12:49:44 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[24-Jan-2019 12:49:45 UTC] PHP Notice:  Undefined variable: number1 in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 542
+[24-Jan-2019 12:49:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 542
+[24-Jan-2019 12:49:45 UTC] PHP Notice:  Undefined variable: number1 in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 542
+[24-Jan-2019 12:49:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 542
+[24-Jan-2019 12:49:45 UTC] PHP Notice:  Undefined variable: number1 in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 556
+[24-Jan-2019 12:49:45 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: A 'To' phone number is required. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(560): Twilio\Rest\Api\V2010\Account\MessageList->create(NULL, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[24-Jan-2019 12:51:21 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[24-Jan-2019 12:51:21 UTC] PHP Notice:  Undefined variable: numbr in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 512
+[24-Jan-2019 12:51:21 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: A 'To' phone number is required. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(516): Twilio\Rest\Api\V2010\Account\MessageList->create(NULL, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[24-Jan-2019 12:56:16 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[24-Jan-2019 12:56:16 UTC] PHP Notice:  Undefined variable: numbr in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 512
+[24-Jan-2019 12:56:16 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: A 'To' phone number is required. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(516): Twilio\Rest\Api\V2010\Account\MessageList->create(NULL, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[24-Jan-2019 12:56:23 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[24-Jan-2019 12:56:23 UTC] PHP Notice:  Undefined variable: numbr in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 512
+[24-Jan-2019 12:56:23 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: A 'To' phone number is required. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(516): Twilio\Rest\Api\V2010\Account\MessageList->create(NULL, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[24-Jan-2019 12:59:11 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[24-Jan-2019 12:59:11 UTC] PHP Notice:  Undefined variable: numbr in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 512
+[24-Jan-2019 12:59:11 UTC] PHP Fatal error:  Uncaught Twilio\Exceptions\RestException: [HTTP 400] Unable to create record: A 'To' phone number is required. in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php:85
+Stack trace:
+#0 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php(219): Twilio\Version->exception(Object(Twilio\Http\Response), 'Unable to creat...')
+#1 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Rest/Api/V2010/Account/MessageList.php(70): Twilio\Version->create('POST', '/Accounts/AC591...', Array, Array)
+#2 /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php(516): Twilio\Rest\Api\V2010\Account\MessageList->create(NULL, Object(Twilio\Values))
+#3 {main}
+  thrown in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/vendor/twilio/sdk/Twilio/Version.php on line 85
+[24-Jan-2019 13:00:19 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 578
+[24-Jan-2019 13:00:27 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 578
+[24-Jan-2019 13:00:35 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 578
+[24-Jan-2019 13:00:47 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 578
+[24-Jan-2019 13:00:55 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 578
+[24-Jan-2019 13:01:33 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 578
+[24-Jan-2019 13:05:49 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 578
+[24-Jan-2019 13:06:36 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 574
+[24-Jan-2019 13:08:52 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[24-Jan-2019 13:08:52 UTC] PHP Notice:  Undefined index: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 400
+[24-Jan-2019 13:08:52 UTC] PHP Notice:  Undefined index: form in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 401
+[24-Jan-2019 13:14:44 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[24-Jan-2019 13:14:58 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[24-Jan-2019 13:17:55 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[24-Jan-2019 13:22:59 UTC] PHP Notice:  Undefined variable: house in /home/p68gpk5n6gp9/presec.exeatlog.com/admin/admin_exeat.php on line 389
+[24-Jan-2019 13:54:18 UTC] PHP Notice:  Undefined index: form in /home/p68gpk5n6gp9/presec.exeatlog.com/masters/masters_page.php on line 386

@@ -1,0 +1,110 @@
+body{
+	margin:0px;
+	
+}
+#Main_wrapper{
+background : #ffffff;
+margin :  auto;
+width : 450px;
+border-radius : 10px;
+border : 3.5px solid rgb(73,197,147);
+padding : 5px;
+line-height : 50x;
+}
+#textbox {
+	width : 450px;
+	border : 1px solid #207cca;
+	margin-top : 4px;
+	padding : 8px 0px;
+	 background: #f7f7f7 none repeat scroll 0 0;
+  border: 1px solid #d4d4d4;
+  border-radius: 4px;
+  font-size: 14px;
+  height: 40px;
+  line-height: 30px;
+	
+}
+#class {
+	margin-top : 10px;
+	
+}
+#radio {
+	
+	margin-top : 10px;
+}
+#submit_btn{
+	background : #207cca;
+	color : white;
+	width : 450px;
+	margin-top : 4px;
+	height : 50px;
+	font-size : 25px;
+	border:none;
+   font-family : Tahoma,geneva,elephant;
+	}
+ul{
+	list-style-type : none;
+	overflow : hidden;
+	margin : 0px auto;
+	padding : 0px;
+	
+	
+    display:block;
+    
+    margin-top : 30px ;
+
+
+	}
+
+
+	
+
+
+ 
+ 
+ 
+ .active {
+	display : block;
+	color : white;
+    font-size : 25px;
+    font-family : Tahoma,geneva,elephant;
+	text-decoration : none;
+    text-align:center;
+  
+	   background : #207cca;
+	width:120px;
+height:	30px;
+	   margin-top:10px;
+	   
+   }
+   
+    
+.active:hover{
+background : #111;
+color:white;
+
+ 
+}
+
+  .tab{
+float : left ;
+	  
+	  
+  } 
+   
+  .rtab{
+
+
+	  
+	  
+  } 
+  label {
+line-height: 25px;
+font-family:Helvicita,Sans-Serif,Gerenda;	  
+	  
+  }
+   
+   .inner_lab{
+	  font-family:Sans-Serif;
+	  
+   }

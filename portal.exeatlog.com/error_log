@@ -1,0 +1,435 @@
+[19-Feb-2019 16:09:03 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/p68gpk5n6gp9/public_html/app/config/config.php on line 2
+[21-Feb-2019 14:26:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 24
+[21-Feb-2019 14:27:16 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 24
+[21-Feb-2019 14:42:36 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[21-Feb-2019 14:42:36 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[21-Feb-2019 14:43:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[21-Feb-2019 14:43:25 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[21-Feb-2019 14:46:06 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[21-Feb-2019 14:46:06 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[21-Feb-2019 16:09:55 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[21-Feb-2019 16:09:55 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[21-Feb-2019 16:18:34 UTC] PHP Warning:  include(forgetp.php): failed to open stream: No such file or directory in /home/p68gpk5n6gp9/public_html/app/forgot.php on line 69
+[21-Feb-2019 16:18:34 UTC] PHP Warning:  include(): Failed opening 'forgetp.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/p68gpk5n6gp9/public_html/app/forgot.php on line 69
+[21-Feb-2019 16:22:16 UTC] PHP Warning:  include(forgetp.php): failed to open stream: No such file or directory in /home/p68gpk5n6gp9/public_html/app/forgot.php on line 69
+[21-Feb-2019 16:22:16 UTC] PHP Warning:  include(): Failed opening 'forgetp.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/p68gpk5n6gp9/public_html/app/forgot.php on line 69
+[22-Feb-2019 12:50:21 UTC] PHP Warning:  include(forgetp.php): failed to open stream: No such file or directory in /home/p68gpk5n6gp9/public_html/app/forgot.php on line 69
+[22-Feb-2019 12:50:21 UTC] PHP Warning:  include(): Failed opening 'forgetp.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/p68gpk5n6gp9/public_html/app/forgot.php on line 69
+[22-Feb-2019 12:59:17 UTC] PHP Warning:  include(forgetp.php): failed to open stream: No such file or directory in /home/p68gpk5n6gp9/public_html/app/forgot.php on line 69
+[22-Feb-2019 12:59:17 UTC] PHP Warning:  include(): Failed opening 'forgetp.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/p68gpk5n6gp9/public_html/app/forgot.php on line 69
+[22-Feb-2019 15:04:32 UTC] PHP Warning:  include(forgetp.php): failed to open stream: No such file or directory in /home/p68gpk5n6gp9/public_html/app/forgot.php on line 5
+[22-Feb-2019 15:04:32 UTC] PHP Warning:  include(): Failed opening 'forgetp.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/p68gpk5n6gp9/public_html/app/forgot.php on line 5
+[22-Feb-2019 15:06:38 UTC] PHP Warning:  include(forgetp.php): failed to open stream: No such file or directory in /home/p68gpk5n6gp9/public_html/app/forgot.php on line 5
+[22-Feb-2019 15:06:38 UTC] PHP Warning:  include(): Failed opening 'forgetp.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/p68gpk5n6gp9/public_html/app/forgot.php on line 5
+[22-Feb-2019 15:07:52 UTC] PHP Warning:  include(forgetp.php): failed to open stream: No such file or directory in /home/p68gpk5n6gp9/public_html/app/forgot.php on line 5
+[22-Feb-2019 15:07:52 UTC] PHP Warning:  include(): Failed opening 'forgetp.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/p68gpk5n6gp9/public_html/app/forgot.php on line 5
+[22-Feb-2019 15:07:52 UTC] PHP Warning:  include(forgetp.php): failed to open stream: No such file or directory in /home/p68gpk5n6gp9/public_html/app/forgot.php on line 5
+[22-Feb-2019 15:07:52 UTC] PHP Warning:  include(): Failed opening 'forgetp.php' for inclusion (include_path='.:/opt/alt/php72/usr/share/pear') in /home/p68gpk5n6gp9/public_html/app/forgot.php on line 5
+[22-Feb-2019 16:51:03 UTC] PHP Notice:  Undefined index: passoword in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 71
+[22-Feb-2019 16:52:54 UTC] PHP Notice:  Undefined index: passoword in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 71
+[22-Feb-2019 18:21:54 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[22-Feb-2019 18:21:55 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[23-Feb-2019 09:34:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[23-Feb-2019 09:34:21 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[23-Feb-2019 10:25:45 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[23-Feb-2019 10:25:45 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[23-Feb-2019 10:32:54 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[23-Feb-2019 10:32:54 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[23-Feb-2019 10:34:26 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[23-Feb-2019 10:34:26 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[23-Feb-2019 10:37:22 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[23-Feb-2019 10:37:22 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[23-Feb-2019 20:09:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[23-Feb-2019 20:09:25 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[23-Feb-2019 20:37:58 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[23-Feb-2019 20:37:58 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[23-Feb-2019 20:51:10 UTC] PHP Notice:  Undefined index: username in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 87
+[23-Feb-2019 21:26:08 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[23-Feb-2019 21:26:08 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[23-Feb-2019 21:33:29 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[23-Feb-2019 21:33:29 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[23-Feb-2019 22:02:22 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[23-Feb-2019 22:02:22 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[23-Feb-2019 22:02:24 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[23-Feb-2019 22:02:24 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[23-Feb-2019 22:05:18 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[23-Feb-2019 22:05:18 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[23-Feb-2019 22:07:49 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[23-Feb-2019 22:07:49 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[23-Feb-2019 22:13:05 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[23-Feb-2019 22:13:05 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[26-Feb-2019 23:44:38 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[26-Feb-2019 23:44:38 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[27-Feb-2019 12:23:01 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[27-Feb-2019 12:23:01 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[27-Feb-2019 13:03:11 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[27-Feb-2019 13:03:11 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[27-Feb-2019 14:53:29 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[27-Feb-2019 14:53:29 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[27-Feb-2019 15:49:03 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[27-Feb-2019 15:49:03 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[28-Feb-2019 11:28:58 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[28-Feb-2019 11:28:58 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[01-Mar-2019 00:43:52 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[01-Mar-2019 00:43:52 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[01-Mar-2019 00:58:24 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[01-Mar-2019 00:58:24 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[01-Mar-2019 00:59:35 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[01-Mar-2019 00:59:35 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[01-Mar-2019 01:00:47 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[01-Mar-2019 01:00:47 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[01-Mar-2019 01:03:58 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[01-Mar-2019 01:03:58 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[01-Mar-2019 01:30:09 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[01-Mar-2019 01:30:09 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[01-Mar-2019 01:58:05 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[01-Mar-2019 01:58:05 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[01-Mar-2019 01:58:06 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[01-Mar-2019 01:58:06 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[01-Mar-2019 13:16:02 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[01-Mar-2019 13:16:02 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[01-Mar-2019 14:07:47 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[01-Mar-2019 14:07:47 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[01-Mar-2019 15:44:14 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[01-Mar-2019 15:44:14 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[01-Mar-2019 17:04:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[01-Mar-2019 17:04:25 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[01-Mar-2019 19:38:48 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[01-Mar-2019 19:38:48 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[01-Mar-2019 19:44:50 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[01-Mar-2019 19:44:50 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[01-Mar-2019 20:22:37 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[01-Mar-2019 20:22:37 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[01-Mar-2019 20:23:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[01-Mar-2019 20:23:25 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[02-Mar-2019 19:53:54 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[02-Mar-2019 19:53:54 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[02-Mar-2019 20:46:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[02-Mar-2019 20:46:12 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[02-Mar-2019 20:58:16 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[02-Mar-2019 20:58:16 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[02-Mar-2019 20:59:52 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[02-Mar-2019 20:59:52 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[02-Mar-2019 22:08:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[02-Mar-2019 22:08:04 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[03-Mar-2019 13:06:00 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[03-Mar-2019 13:06:00 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[09-Mar-2019 23:22:24 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[09-Mar-2019 23:22:24 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[14-Mar-2019 23:16:01 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[14-Mar-2019 23:16:01 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[15-Mar-2019 14:45:08 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[15-Mar-2019 14:45:08 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[23-Mar-2019 16:24:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[23-Mar-2019 16:24:28 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[23-Mar-2019 16:39:19 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[23-Mar-2019 16:39:19 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[27-Mar-2019 15:44:33 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[27-Mar-2019 15:44:33 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[27-Mar-2019 16:49:59 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[27-Mar-2019 16:49:59 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[27-Mar-2019 17:01:39 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[27-Mar-2019 17:01:39 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[27-Mar-2019 17:15:26 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[27-Mar-2019 17:15:26 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[27-Mar-2019 17:27:19 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[27-Mar-2019 17:27:19 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[27-Mar-2019 17:47:00 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[27-Mar-2019 17:47:00 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[19-Apr-2019 17:38:24 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[19-Apr-2019 17:38:24 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[19-Apr-2019 18:07:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[19-Apr-2019 18:07:04 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[19-Apr-2019 18:23:59 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[19-Apr-2019 18:23:59 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[20-Apr-2019 11:38:34 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[20-Apr-2019 11:38:34 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[20-Apr-2019 11:52:56 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[20-Apr-2019 11:52:56 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[20-Apr-2019 12:08:15 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[20-Apr-2019 12:08:15 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[20-Apr-2019 12:20:33 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[20-Apr-2019 12:20:33 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[20-Apr-2019 12:28:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[20-Apr-2019 12:28:25 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[20-Apr-2019 12:50:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[20-Apr-2019 12:50:21 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[20-Apr-2019 15:43:51 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[20-Apr-2019 15:43:51 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[20-Apr-2019 15:54:18 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[20-Apr-2019 15:54:18 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[20-Apr-2019 16:27:33 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[20-Apr-2019 16:27:33 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[20-Apr-2019 16:52:20 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[20-Apr-2019 16:52:20 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[21-Apr-2019 10:49:09 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[21-Apr-2019 10:49:09 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[21-Apr-2019 17:29:31 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[21-Apr-2019 17:29:31 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[25-Apr-2019 16:35:52 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[25-Apr-2019 16:35:52 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[25-Apr-2019 16:50:24 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[25-Apr-2019 16:50:24 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[25-Apr-2019 17:03:50 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[25-Apr-2019 17:03:50 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[25-Apr-2019 17:35:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[25-Apr-2019 17:35:43 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[25-Apr-2019 18:01:26 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[25-Apr-2019 18:01:26 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[27-Apr-2019 16:44:02 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[27-Apr-2019 16:44:02 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[27-Apr-2019 17:08:51 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[27-Apr-2019 17:08:51 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[29-Apr-2019 16:25:48 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[29-Apr-2019 16:25:48 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[01-May-2019 10:51:23 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[01-May-2019 10:51:23 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[01-May-2019 11:34:57 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[01-May-2019 11:34:57 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[01-May-2019 16:54:56 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[01-May-2019 16:54:56 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[02-May-2019 16:08:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 43
+[02-May-2019 16:08:13 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 33
+[03-May-2019 14:19:50 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[03-May-2019 14:19:50 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[03-May-2019 14:29:33 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[03-May-2019 14:29:33 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[03-May-2019 15:07:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[03-May-2019 15:07:13 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[03-May-2019 15:17:42 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[03-May-2019 15:17:42 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[03-May-2019 16:58:32 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[03-May-2019 16:58:32 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[04-May-2019 16:53:19 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[04-May-2019 16:53:19 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[04-May-2019 17:26:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[04-May-2019 17:26:43 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[04-May-2019 18:35:59 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[04-May-2019 18:35:59 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[04-May-2019 19:08:07 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[04-May-2019 19:08:07 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[05-May-2019 16:30:48 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[05-May-2019 16:30:48 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[17-May-2019 17:03:33 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[17-May-2019 17:03:33 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[17-May-2019 18:19:06 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[17-May-2019 18:19:06 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[17-May-2019 18:19:08 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[17-May-2019 18:19:08 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[17-May-2019 18:32:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[17-May-2019 18:32:21 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[18-May-2019 15:22:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[18-May-2019 15:22:21 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[18-May-2019 15:40:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[18-May-2019 15:40:04 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[18-May-2019 17:06:50 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[18-May-2019 17:06:50 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[18-May-2019 18:35:00 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[18-May-2019 18:35:00 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[18-May-2019 18:36:57 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[18-May-2019 18:36:57 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[19-May-2019 16:50:36 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[19-May-2019 16:50:36 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[20-May-2019 10:58:40 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[20-May-2019 10:58:40 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[24-May-2019 14:45:33 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[24-May-2019 14:45:33 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[24-May-2019 14:58:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[24-May-2019 14:58:25 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[24-May-2019 15:14:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[24-May-2019 15:14:13 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[24-May-2019 17:10:34 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[24-May-2019 17:10:34 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[24-May-2019 17:14:46 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[24-May-2019 17:14:46 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[25-May-2019 15:30:09 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[25-May-2019 15:30:09 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[25-May-2019 15:42:06 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[25-May-2019 15:42:06 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[25-May-2019 16:06:30 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[25-May-2019 16:06:30 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[25-May-2019 16:09:22 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[25-May-2019 16:09:22 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[25-May-2019 16:33:26 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[25-May-2019 16:33:26 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[25-May-2019 18:29:30 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[25-May-2019 18:29:30 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[25-May-2019 19:46:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[25-May-2019 19:46:13 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[25-May-2019 20:47:07 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[25-May-2019 20:47:07 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[25-May-2019 20:51:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[25-May-2019 20:51:43 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[25-May-2019 21:31:07 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[25-May-2019 21:31:07 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[27-May-2019 16:09:53 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[27-May-2019 16:09:53 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[27-May-2019 16:26:39 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[27-May-2019 16:26:39 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[27-May-2019 17:19:23 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[27-May-2019 17:19:23 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[28-May-2019 16:32:54 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[28-May-2019 16:32:54 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[28-May-2019 17:09:41 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[28-May-2019 17:09:41 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[28-May-2019 17:21:51 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[28-May-2019 17:21:51 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[29-May-2019 17:42:31 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[29-May-2019 17:42:31 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[30-May-2019 16:07:01 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[30-May-2019 16:07:01 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[30-May-2019 16:40:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[30-May-2019 16:40:25 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[30-May-2019 16:41:16 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[30-May-2019 16:41:16 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[30-May-2019 16:43:30 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[30-May-2019 16:43:30 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[30-May-2019 16:44:45 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[30-May-2019 16:44:45 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[30-May-2019 17:46:17 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[30-May-2019 17:46:17 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[31-May-2019 16:09:08 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[31-May-2019 16:09:08 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[31-May-2019 17:09:53 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[31-May-2019 17:09:53 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[31-May-2019 17:26:06 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[31-May-2019 17:26:06 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[31-May-2019 17:27:31 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[31-May-2019 17:27:31 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[31-May-2019 17:41:02 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[31-May-2019 17:41:02 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[31-May-2019 18:05:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[31-May-2019 18:05:21 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[31-May-2019 18:07:23 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[31-May-2019 18:07:23 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[31-May-2019 18:22:59 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[31-May-2019 18:22:59 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[01-Jun-2019 14:08:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[01-Jun-2019 14:08:43 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[01-Jun-2019 15:35:53 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[01-Jun-2019 15:35:53 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[01-Jun-2019 15:36:15 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[01-Jun-2019 15:36:15 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[01-Jun-2019 17:07:38 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (Monday June 1st, 2019 - 4:43pm) at position 22 (-): Unexpected character in /home/p68gpk5n6gp9/public_html/app/indexp1.php:31
+Stack trace:
+#0 /home/p68gpk5n6gp9/public_html/app/indexp1.php(31): DateTime->__construct('Monday June 1st...')
+#1 /home/p68gpk5n6gp9/public_html/app/index.php(68): include('/home/p68gpk5n6...')
+#2 {main}
+  thrown in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 31
+[01-Jun-2019 17:12:22 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (Monday June 1st, 2019 - 4:43pm) at position 22 (-): Unexpected character in /home/p68gpk5n6gp9/public_html/app/indexp1.php:31
+Stack trace:
+#0 /home/p68gpk5n6gp9/public_html/app/indexp1.php(31): DateTime->__construct('Monday June 1st...')
+#1 {main}
+  thrown in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 31
+[01-Jun-2019 17:14:13 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (Monday June 1st, 2019 - 4:43pm) at position 22 (-): Unexpected character in /home/p68gpk5n6gp9/public_html/app/indexp1.php:31
+Stack trace:
+#0 /home/p68gpk5n6gp9/public_html/app/indexp1.php(31): DateTime->__construct('Monday June 1st...')
+#1 {main}
+  thrown in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 31
+[01-Jun-2019 17:15:20 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (Monday June 1st, 2019 - 4:43pm) at position 22 (-): Unexpected character in /home/p68gpk5n6gp9/public_html/app/indexp1.php:31
+Stack trace:
+#0 /home/p68gpk5n6gp9/public_html/app/indexp1.php(31): DateTime->__construct('Monday June 1st...')
+#1 {main}
+  thrown in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 31
+[01-Jun-2019 17:16:37 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (Monday June 1st, 2019 - 4:43pm) at position 22 (-): Unexpected character in /home/p68gpk5n6gp9/public_html/app/indexp1.php:31
+Stack trace:
+#0 /home/p68gpk5n6gp9/public_html/app/indexp1.php(31): DateTime->__construct('Monday June 1st...')
+#1 {main}
+  thrown in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 31
+[01-Jun-2019 17:18:01 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (Monday June 1st, 2019 - 4:43pm) at position 22 (-): Unexpected character in /home/p68gpk5n6gp9/public_html/app/indexp1.php:33
+Stack trace:
+#0 /home/p68gpk5n6gp9/public_html/app/indexp1.php(33): DateTime->__construct('Monday June 1st...')
+#1 {main}
+  thrown in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 33
+[01-Jun-2019 17:18:46 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (Monday June 1st, 2019 - 4:43pm) at position 22 (-): Unexpected character in /home/p68gpk5n6gp9/public_html/app/indexp1.php:33
+Stack trace:
+#0 /home/p68gpk5n6gp9/public_html/app/indexp1.php(33): DateTime->__construct('Monday June 1st...')
+#1 {main}
+  thrown in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 33
+[01-Jun-2019 17:19:08 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (Monday June 1st, 2019 - 4:43pm) at position 22 (-): Unexpected character in /home/p68gpk5n6gp9/public_html/app/indexp1.php:33
+Stack trace:
+#0 /home/p68gpk5n6gp9/public_html/app/indexp1.php(33): DateTime->__construct('Monday June 1st...')
+#1 {main}
+  thrown in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 33
+[01-Jun-2019 17:19:56 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string ($date) at position 0 ($): Unexpected character in /home/p68gpk5n6gp9/public_html/app/indexp1.php:33
+Stack trace:
+#0 /home/p68gpk5n6gp9/public_html/app/indexp1.php(33): DateTime->__construct('$date')
+#1 {main}
+  thrown in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 33
+[01-Jun-2019 17:22:07 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (Saturday June 1st, 2019 - 5:22pm) at position 24 (-): Unexpected character in /home/p68gpk5n6gp9/public_html/app/indexp1.php:35
+Stack trace:
+#0 /home/p68gpk5n6gp9/public_html/app/indexp1.php(35): DateTime->__construct('Saturday June 1...')
+#1 {main}
+  thrown in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 35
+[01-Jun-2019 17:22:21 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (Saturday June 1st, 2019 - 5:22pm) at position 24 (-): Unexpected character in /home/p68gpk5n6gp9/public_html/app/indexp1.php:35
+Stack trace:
+#0 /home/p68gpk5n6gp9/public_html/app/indexp1.php(35): DateTime->__construct('Saturday June 1...')
+#1 {main}
+  thrown in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 35
+[01-Jun-2019 17:30:02 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (Saturday June 1st, 2019 - 5:30pm) at position 24 (-): Unexpected character in /home/p68gpk5n6gp9/public_html/app/indexp1.php:35
+Stack trace:
+#0 /home/p68gpk5n6gp9/public_html/app/indexp1.php(35): DateTime->__construct('Saturday June 1...')
+#1 {main}
+  thrown in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 35
+[01-Jun-2019 17:39:56 UTC] PHP Warning:  Use of undefined constant renew - assumed 'renew' (this will throw an Error in a future version of PHP) in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 38
+[01-Jun-2019 17:42:03 UTC] PHP Warning:  Use of undefined constant renew - assumed 'renew' (this will throw an Error in a future version of PHP) in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 38
+[01-Jun-2019 17:43:45 UTC] PHP Warning:  mktime() expects parameter 1 to be integer, string given in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 33
+[01-Jun-2019 17:43:45 UTC] PHP Warning:  mktime() expects parameter 1 to be integer, string given in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 35
+[01-Jun-2019 17:43:45 UTC] PHP Warning:  Use of undefined constant renew - assumed 'renew' (this will throw an Error in a future version of PHP) in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 38
+[01-Jun-2019 17:44:33 UTC] PHP Warning:  mktime() expects parameter 1 to be integer, string given in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 33
+[01-Jun-2019 17:44:33 UTC] PHP Warning:  mktime() expects parameter 1 to be integer, string given in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 35
+[01-Jun-2019 17:49:10 UTC] PHP Warning:  mktime() expects parameter 1 to be integer, string given in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 33
+[01-Jun-2019 17:49:10 UTC] PHP Warning:  mktime() expects parameter 1 to be integer, string given in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 35
+[01-Jun-2019 17:55:06 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[01-Jun-2019 17:55:06 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[01-Jun-2019 17:56:45 UTC] PHP Warning:  mktime() expects parameter 1 to be integer, string given in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 33
+[01-Jun-2019 17:56:45 UTC] PHP Warning:  mktime() expects parameter 1 to be integer, string given in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 35
+[01-Jun-2019 18:00:10 UTC] PHP Warning:  mktime() expects parameter 1 to be integer, string given in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 33
+[01-Jun-2019 18:00:10 UTC] PHP Warning:  mktime() expects parameter 1 to be integer, string given in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 35
+[01-Jun-2019 18:01:24 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[01-Jun-2019 18:01:24 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[01-Jun-2019 18:01:53 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 44
+[01-Jun-2019 18:01:53 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 34
+[01-Jun-2019 18:03:37 UTC] PHP Warning:  mktime() expects parameter 1 to be integer, string given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 54
+[01-Jun-2019 18:03:37 UTC] PHP Warning:  mktime() expects parameter 1 to be integer, string given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 56
+[01-Jun-2019 18:11:58 UTC] PHP Warning:  mktime() expects parameter 1 to be integer, string given in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 33
+[01-Jun-2019 18:11:58 UTC] PHP Warning:  mktime() expects parameter 1 to be integer, string given in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 35
+[01-Jun-2019 18:13:47 UTC] PHP Warning:  mktime() expects parameter 1 to be integer, string given in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 33
+[01-Jun-2019 18:13:47 UTC] PHP Warning:  mktime() expects parameter 1 to be integer, string given in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 35
+[01-Jun-2019 18:15:53 UTC] PHP Warning:  mktime() expects parameter 1 to be integer, string given in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 33
+[01-Jun-2019 18:15:53 UTC] PHP Warning:  mktime() expects parameter 1 to be integer, string given in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 35
+[01-Jun-2019 18:20:53 UTC] PHP Warning:  mktime() expects parameter 1 to be integer, string given in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 33
+[01-Jun-2019 18:20:53 UTC] PHP Warning:  mktime() expects parameter 1 to be integer, string given in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 35
+[01-Jun-2019 18:22:08 UTC] PHP Warning:  mktime() expects parameter 1 to be integer, string given in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 33
+[01-Jun-2019 18:22:08 UTC] PHP Warning:  mktime() expects parameter 1 to be integer, string given in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 35
+[01-Jun-2019 18:22:24 UTC] PHP Warning:  mktime() expects parameter 1 to be integer, string given in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 33
+[01-Jun-2019 18:22:24 UTC] PHP Warning:  mktime() expects parameter 1 to be integer, string given in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 35
+[01-Jun-2019 18:25:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function unix_timestamp() in /home/p68gpk5n6gp9/public_html/app/indexp1.php:33
+Stack trace:
+#0 /home/p68gpk5n6gp9/public_html/app/index.php(68): include()
+#1 {main}
+  thrown in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 33
+[01-Jun-2019 18:26:02 UTC] PHP Warning:  mktime() expects parameter 1 to be integer, string given in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 33
+[01-Jun-2019 18:26:02 UTC] PHP Warning:  mktime() expects parameter 1 to be integer, string given in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 35
+[01-Jun-2019 18:28:23 UTC] PHP Warning:  mktime() expects parameter 1 to be integer, string given in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 33
+[01-Jun-2019 18:28:23 UTC] PHP Warning:  mktime() expects parameter 1 to be integer, string given in /home/p68gpk5n6gp9/public_html/app/indexp1.php on line 35
+[01-Jun-2019 19:54:45 UTC] PHP Warning:  mktime() expects parameter 1 to be integer, string given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 54
+[01-Jun-2019 19:54:45 UTC] PHP Warning:  mktime() expects parameter 1 to be integer, string given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 56
+[01-Jun-2019 19:56:25 UTC] PHP Warning:  mktime() expects parameter 1 to be integer, string given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 54
+[01-Jun-2019 19:56:25 UTC] PHP Warning:  mktime() expects parameter 1 to be integer, string given in /home/p68gpk5n6gp9/public_html/app/indexp.php on line 56
+[19-Oct-2019 16:40:32 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'master'@'localhost' to database 'login' in /home/ksgtfiadxonc/public_html/app/config/config.php on line 2
+[19-Oct-2019 16:59:14 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'master'@'localhost' to database 'login' in /home/ksgtfiadxonc/public_html/app/config/config.php on line 2
+[09-Oct-2020 01:23:11 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/kmaemigjpugg/public_html/app/config/config.php on line 2
+[09-Oct-2020 05:21:12 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/kmaemigjpugg/public_html/app/config/config.php on line 2
+[09-Oct-2020 06:28:36 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/kmaemigjpugg/public_html/app/config/config.php on line 2
+[09-Oct-2020 06:28:36 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/kmaemigjpugg/public_html/app/config/config.php on line 2
+[09-Oct-2020 06:28:36 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/kmaemigjpugg/public_html/app/config/config.php on line 2
+[09-Oct-2020 06:28:37 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/kmaemigjpugg/public_html/app/config/config.php on line 2
+[09-Oct-2020 06:42:41 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/kmaemigjpugg/public_html/app/config/config.php on line 2
+[09-Oct-2020 06:43:30 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/kmaemigjpugg/public_html/app/config/config.php on line 2
+[09-Oct-2020 06:46:19 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/kmaemigjpugg/public_html/app/config/config.php on line 2
+[09-Oct-2020 06:46:40 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/kmaemigjpugg/public_html/app/config/config.php on line 2
+[09-Oct-2020 06:47:23 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/kmaemigjpugg/public_html/app/config/config.php on line 2
+[09-Oct-2020 06:52:15 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/kmaemigjpugg/public_html/app/config/config.php on line 2
+[09-Oct-2020 10:17:13 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'master'@'localhost' (using password: YES) in /home/kmaemigjpugg/public_html/app/config/config.php on line 2
+[21-Dec-2022 16:01:38 UTC] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'http://exeatlog.com/' (0) in /home/pcqzsw40914c/public_html/app/config/config.php on line 2

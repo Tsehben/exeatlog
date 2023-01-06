@@ -1,0 +1,275 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(auto, 1fr));
+	grid-template-rows: 13vh 100vh;
+	grid-template-areas: 
+	'leftSide searchSide'
+	'. contenting';
+
+}
+.left-side{
+	grid-area: leftSide;
+	height: 100vh;
+}
+.left-side h1{
+	padding: 15px;
+	font-size:34px;
+	font-weight: bold;
+	color: blue; /*rgba(60, 170, 240, 1); #60b4df;*/
+
+}
+.side-links{
+}
+.side-links li:hover{
+	background-color: rgba(60, 170, 240, .5);
+	padding: 15px;
+}
+.side-links li{
+	list-style: none;
+	padding-bottom: 15px;
+	padding-left: 5px;
+	padding-top: 15px;
+	white-space: nowrap;
+	transition: .3s ease-in;
+}
+.side-links li a{
+	text-decoration: none;
+	color: grey;
+}
+
+.search-side{
+	grid-area: searchSide;
+	background-color: blue;
+	display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.search-box{
+	margin: 10px;
+	height: 6vh;
+	width: 30vh;
+	font-size: 17px;
+	transition: .5s ease-in;
+	border-radius: 2rem;
+	padding: 5px;
+	border:none;
+	border-style: none;
+}
+.search-box:hover{
+	width: 41vh;
+}
+.notifications{
+	position: relative;
+	margin-right: 20px;
+	display: flex;
+	width: 15vh;
+	justify-content: space-around;
+
+}
+nav{
+	width: 40vh;
+}
+.notifications li{
+	list-style: none;
+}
+.notifications li a{
+	text-decoration:none;
+}
+.content{
+	grid-area: contenting;
+	background-color:rgba(60, 170, 240, .2);
+}
+
+.Exeat-records{
+	color:rgba(60, 170, 240, 10) ;
+	height: 13vh;
+	width: 100%;
+}
+.Exeat-records h2{
+	padding: 20px;
+}
+.Ex-ul{
+	margin-left: 30px;
+	width: 18vh;
+	display: flex;
+	white-space: nowrap;
+	justify-content: space-around;
+}
+
+.Ex-ul li{
+	list-style: none;
+}
+.Ex-ul li a{
+	padding: 10px;	
+	color: black;
+	text-decoration:none;
+	font-size: 17px;
+}
+.Ex-ul .sepet{
+	font-size: 18px;
+	color: black;
+}
+.Issue{
+	position: relative;
+	left: 135vh;
+	height: 5vh;
+	bottom: 6vh;
+	width: 20vh;
+	color: #fff;
+	background-color: green;
+	border:none;
+	cursor: pointer;
+}
+.cont{
+	margin: 30px;
+}
+.main-content{
+	position: relative;
+	background-color: white;
+	width: 110vh;
+	height: 40vh;
+	margin: 10px;
+	transition:all .5s ease-out;
+}
+.categories{
+	margin: 10px;
+	margin-left: 20px;
+	padding-top: 20px;
+	font-weight: bold;
+	cursor: pointer;
+
+}
+.head1-cont{
+	display: none;
+	padding: 15px;
+	background:rgba(60, 170, 240, .2);
+	color: grey;
+	font-weight: bold;
+	letter-spacing: .1em;
+	transition: 0.5s ease 0.4s;
+}
+.head1-cont.open{
+	display: block;
+}
+.head2-cont.open{
+	display: block;
+}
+.head3-cont.open{
+	display: block;
+}
+.heading1{
+	margin-bottom: 10px;
+}
+#h1::after{
+	content: '+';
+	font-weight: bold;
+	margin-left: 16px;
+	font-size: 20px;
+}
+#h2::after{
+	content: '+';
+	font-weight: bold;
+	margin-left: 16px;
+	font-size: 20px;
+}
+#h3::after{
+	content: '+';
+	font-weight: bold;
+	margin-left: 16px;
+	font-size: 20px;
+}
+.head2-cont{
+	display: none;
+	padding: 15px;
+	background:rgba(60, 170, 240, .2);
+	color: grey;
+	font-weight: bold;
+	letter-spacing: .1em;
+	transition: all .5s ease-out;	
+}
+.head3-cont{
+	display: none;
+	padding: 15px;
+	background:rgba(60, 170, 240, .2);
+	color: grey;
+	font-weight: bold;
+	letter-spacing: .1em;
+	transition:all .5s ease-in;	
+}
+
+.main-content.open{
+	height: 70vh;
+}
+.Exbtn{
+	margin: 10px;
+	height: 4vh;
+	width: 15vh;
+}
+.chfile{
+	height: 4vh;
+	width: 12vh;
+	margin-left: 10px;
+}
+.file{
+	height: 3vh;
+	width: 20vh;
+}
+.sel-house{
+	position: absolute;
+	top: 34vh;
+	left: 90vh;
+	height: 3.5vh;
+}
+.file-text{
+	color: grey;
+	font-weight: bold;
+}
+.sel-house2{
+	position: relative;
+	left: 7vh;
+	height: 3vh; 
+}
+.right-content{
+	margin:10px;
+	height: 40vh;
+	width: 44vh;
+	background-color: #fff;
+}
+.right-content h3{
+	padding: 15px;
+	color: grey;
+	font-weight: bold;
+}
+.right-content p{
+	position: relative;
+	top: 20vh;
+	left: 4vh;
+	font-weight: bold;
+	color: grey;
+}
+.bottom-content{
+	margin: 10px;
+	height: 30vh;
+	background-color: #fff;
+}
+.cont-cont{
+	display: flex;
+}
+.bottom-content p{
+	position: relative;
+	top: 10vh;
+	left: 10vh;
+	letter-spacing:.2rem; 
+	color: grey;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+
+

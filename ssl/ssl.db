@@ -1,0 +1,52 @@
+--- 
+files: 
+  certificate: 
+    exeatlog_com_d2023_e12bd_1633738448_603875184360e055281a4fe2363c66ff: 
+      created: '1602202448'
+      domains: 
+        - exeatlog.com
+        - mail.exeatlog.com
+        - www.exeatlog.com
+        - cpanel.exeatlog.com
+        - webmail.exeatlog.com
+        - webdisk.exeatlog.com
+        - cpcontacts.exeatlog.com
+        - cpcalendars.exeatlog.com
+        - autodiscover.exeatlog.com
+      friendly_name: Cert for “exeatlog.com”
+      id: exeatlog_com_d2023_e12bd_1633738448_603875184360e055281a4fe2363c66ff
+      is_self_signed: 1
+      issuer.commonName: exeatlog.com
+      issuer.organizationName: ~
+      modulus: d2023215484a087b1f4ac7757e851b1c9d4023bdfa571b893af4ec63187117548aafb6d0c4c5424eaf263a58b63e74c796b4e365c8030a91286be9edebe47fe1bedbe609ef9b8c6fe108c0d83395057850bf454f16496b1116001531e3ed718bd5beec84ffd9e78c7575f9638c5793aec5a9c1ddc9951e776161b653bf4c15e6ec4b944a69058ecc5850084f67881f5c31b4e22363b27f812a8193f1971461df234602f1c38e34f379cbc8c2e6bedf56d747db0cd28e9ce9734df17339c64c7437d17052d9c7413a8e785b50682f8c37975dd3bf8fe18c9b799bb66fb24fa645a48db872e98b0222303c19c70af990b0427d2e80e519ec30ce8ec4b3105e12bd
+      modulus_length: 2048
+      not_after: '1633738448'
+      not_before: '1602202448'
+      serial: 0100c6cbb7
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: exeatlog.com
+      validation_type: ~
+  key: 
+    d2023_e12bd_dd66605c25e83d914214231c9d0fea18: 
+      created: '1602202448'
+      friendly_name: Key for “exeatlog.com”
+      id: d2023_e12bd_dd66605c25e83d914214231c9d0fea18
+      modulus: d2023215484a087b1f4ac7757e851b1c9d4023bdfa571b893af4ec63187117548aafb6d0c4c5424eaf263a58b63e74c796b4e365c8030a91286be9edebe47fe1bedbe609ef9b8c6fe108c0d83395057850bf454f16496b1116001531e3ed718bd5beec84ffd9e78c7575f9638c5793aec5a9c1ddc9951e776161b653bf4c15e6ec4b944a69058ecc5850084f67881f5c31b4e22363b27f812a8193f1971461df234602f1c38e34f379cbc8c2e6bedf56d747db0cd28e9ce9734df17339c64c7437d17052d9c7413a8e785b50682f8c37975dd3bf8fe18c9b799bb66fb24fa645a48db872e98b0222303c19c70af990b0427d2e80e519ec30ce8ec4b3105e12bd
+      modulus_length: 2048
+indexes: 
+  certificate: 
+    modulus: 
+      d2023215484a087b1f4ac7757e851b1c9d4023bdfa571b893af4ec63187117548aafb6d0c4c5424eaf263a58b63e74c796b4e365c8030a91286be9edebe47fe1bedbe609ef9b8c6fe108c0d83395057850bf454f16496b1116001531e3ed718bd5beec84ffd9e78c7575f9638c5793aec5a9c1ddc9951e776161b653bf4c15e6ec4b944a69058ecc5850084f67881f5c31b4e22363b27f812a8193f1971461df234602f1c38e34f379cbc8c2e6bedf56d747db0cd28e9ce9734df17339c64c7437d17052d9c7413a8e785b50682f8c37975dd3bf8fe18c9b799bb66fb24fa645a48db872e98b0222303c19c70af990b0427d2e80e519ec30ce8ec4b3105e12bd: 
+        exeatlog_com_d2023_e12bd_1633738448_603875184360e055281a4fe2363c66ff: ~
+    subject.commonName: 
+      exeatlog.com: 
+        exeatlog_com_d2023_e12bd_1633738448_603875184360e055281a4fe2363c66ff: ~
+uniques: 
+  certificate: 
+    friendly_name: 
+      Cert for “exeatlog.com”: exeatlog_com_d2023_e12bd_1633738448_603875184360e055281a4fe2363c66ff
+  key: 
+    friendly_name: 
+      Key for “exeatlog.com”: d2023_e12bd_dd66605c25e83d914214231c9d0fea18
+    modulus: 
+      d2023215484a087b1f4ac7757e851b1c9d4023bdfa571b893af4ec63187117548aafb6d0c4c5424eaf263a58b63e74c796b4e365c8030a91286be9edebe47fe1bedbe609ef9b8c6fe108c0d83395057850bf454f16496b1116001531e3ed718bd5beec84ffd9e78c7575f9638c5793aec5a9c1ddc9951e776161b653bf4c15e6ec4b944a69058ecc5850084f67881f5c31b4e22363b27f812a8193f1971461df234602f1c38e34f379cbc8c2e6bedf56d747db0cd28e9ce9734df17339c64c7437d17052d9c7413a8e785b50682f8c37975dd3bf8fe18c9b799bb66fb24fa645a48db872e98b0222303c19c70af990b0427d2e80e519ec30ce8ec4b3105e12bd: d2023_e12bd_dd66605c25e83d914214231c9d0fea18

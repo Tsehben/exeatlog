@@ -1,0 +1,42 @@
+[04-May-2019 18:12:06 UTC] PHP Warning:  require(/vendor/autoload.php): failed to open stream: No such file or directory in /home/p68gpk5n6gp9/public_html/email/email.php on line 3
+[04-May-2019 18:12:06 UTC] PHP Fatal error:  require(): Failed opening required '/vendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/p68gpk5n6gp9/public_html/email/email.php on line 3
+[04-May-2019 18:13:08 UTC] PHP Fatal error:  Uncaught Error: Class 'SendGrid\Email' not found in /home/p68gpk5n6gp9/public_html/email/email.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/p68gpk5n6gp9/public_html/email/email.php on line 15
+[04-May-2019 18:13:54 UTC] PHP Fatal error:  Uncaught Error: Class 'SendGrid\Email' not found in /home/p68gpk5n6gp9/public_html/email/email.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/p68gpk5n6gp9/public_html/email/email.php on line 15
+[04-May-2019 18:15:09 UTC] PHP Fatal error:  Uncaught Error: Class 'SendGrid\Email' not found in /home/p68gpk5n6gp9/public_html/email/email.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/p68gpk5n6gp9/public_html/email/email.php on line 15
+[04-May-2019 18:22:18 UTC] PHP Warning:  require(/vendor/autoload.php): failed to open stream: No such file or directory in /home/p68gpk5n6gp9/public_html/email/email.php on line 4
+[04-May-2019 18:22:18 UTC] PHP Fatal error:  require(): Failed opening required '/vendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/p68gpk5n6gp9/public_html/email/email.php on line 4
+[04-May-2019 18:23:11 UTC] PHP Warning:  require(/vendor/autoload.php): failed to open stream: No such file or directory in /home/p68gpk5n6gp9/public_html/email/email.php on line 4
+[04-May-2019 18:23:11 UTC] PHP Fatal error:  require(): Failed opening required '/vendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/p68gpk5n6gp9/public_html/email/email.php on line 4
+[04-May-2019 18:26:51 UTC] PHP Fatal error:  Uncaught Error: Class 'SendGrid\Email' not found in /home/p68gpk5n6gp9/public_html/email/email.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/p68gpk5n6gp9/public_html/email/email.php on line 7
+[04-May-2019 18:48:46 UTC] PHP Fatal error:  Uncaught Error: Class 'SendGrid\Email' not found in /home/p68gpk5n6gp9/public_html/email/email.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/p68gpk5n6gp9/public_html/email/email.php on line 7
+[04-May-2019 18:53:09 UTC] PHP Fatal error:  Uncaught Error: Class 'SendGrid\Email' not found in /home/p68gpk5n6gp9/public_html/email/email.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/p68gpk5n6gp9/public_html/email/email.php on line 7
+[04-May-2019 18:54:25 UTC] PHP Fatal error:  Uncaught Error: Class 'SendGrid\Email' not found in /home/p68gpk5n6gp9/public_html/email/email.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/p68gpk5n6gp9/public_html/email/email.php on line 7
+[04-May-2019 19:21:55 UTC] PHP Fatal error:  Uncaught Error: Class 'SendGrid\Email' not found in /home/p68gpk5n6gp9/public_html/email/email.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/p68gpk5n6gp9/public_html/email/email.php on line 7
+[04-May-2019 19:23:38 UTC] PHP Fatal error:  Uncaught Error: Class 'SendGrid\Email' not found in /home/p68gpk5n6gp9/public_html/email/email.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/p68gpk5n6gp9/public_html/email/email.php on line 7
