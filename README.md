@@ -29,11 +29,6 @@ Exeatlog is a cutting-edge web-based application designed to revolutionize the w
 2. Navigate to the project directory:
    ```bash
    cd exeatlog
-   ```
-3. Install dependencies (if any):
-   ```bash
-   // Instructions for installing any dependencies
-   ```
 4. Configure your database in `config/database.php`.
 5. Run the application on your local server.
 
@@ -42,10 +37,5 @@ Exeatlog is a cutting-edge web-based application designed to revolutionize the w
 - Teachers can issue and track exeats for their students.
 - Students can apply for and check the status of their exeats.
 
-## Contributing
-Contributions to the Exeatlog project are welcome. Please read `CONTRIBUTING.md` for details on our code of conduct and the process for submitting pull requests.
-
-## License
-This project is licensed under the MIT License - see the `LICENSE.md` file for details.
 
 
