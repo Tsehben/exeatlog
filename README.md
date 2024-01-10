@@ -1,74 +1,41 @@
-# [Start Bootstrap - Agency](https://startbootstrap.com/template-overviews/agency/)
 
-[Agency](https://startbootstrap.com/template-overviews/agency/) is a one page agency portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a responsive timeline, and a working PHP contact form.
+# Exeatlog: High School Exeat Management System
 
-## Preview
+## Introduction
+Exeatlog is a cutting-edge web-based application designed to revolutionize the way high schools manage exeats. It offers real-time monitoring and efficient management of student exeats, ensuring a seamless and secure process for administrators, teachers, and students.
 
-[![Agency Preview](https://startbootstrap.com/assets/img/templates/agency.jpg)](https://blackrockdigital.github.io/startbootstrap-agency/)
+## Features
+- **Real-Time Monitoring:** Keep track of exeats as they are issued and returned, in real time.
+- **High-Volume Data Handling:** Optimized for handling thousands of student records without compromising performance.
+- **Intuitive User Interface:** A user-friendly interface that ensures a seamless experience for all users.
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-agency/)**
+## Built With
+- **PHP:** Used for robust backend development, ensuring efficient data processing and system functionality.
+- **MySQL:** Manages and optimizes high volumes of data, providing a stable and scalable database solution.
+- **Bootstrap, CSS, JavaScript:** These technologies are utilized to create a responsive and intuitive user interface.
 
-## Status
+## Getting Started
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-agency/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-agency.svg)](https://www.npmjs.com/package/startbootstrap-agency)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-agency.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-agency)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-agency/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-agency)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-agency/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-agency?type=dev)
+### Prerequisites
+- PHP 7.4 or higher
+- MySQL 5.7 or higher
+- Web Server (Apache/Nginx)
 
-## Download and Installation
-
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/agency/)
-* Install via npm: `npm i startbootstrap-agency`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-agency.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-agency)
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/exeatlog.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd exeatlog
+4. Configure your database in `config/database.php`.
+5. Run the application on your local server.
 
 ## Usage
+- Log in as an administrator to manage student exeats.
+- Teachers can issue and track exeats for their students.
+- Students can apply for and check the status of their exeats.
 
-### Basic Usage
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
 
-### Advanced Usage
-
-After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
-
-#### Gulp Tasks
-
-- `gulp` the default task that builds everything
-- `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made
-- `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
-- `gulp js` minifies the themes JS file
-- `gulp vendor` copies dependencies from node_modules to the vendor directory
-
-You must have npm and Gulp installed globally on your machine in order to use these features.
-
-## Troubleshooting and Help
-
-Start Bootstrap has a public Slack channel which is a great place to ask questions about this template and all things related to Start Bootstrap.
-
-**[Click here to join the Slack channel!](https://startbootstrap-slack.herokuapp.com/)**
-
-## Bugs and Issues
-
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-agency/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/agency/).
-
-## About
-
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
-
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
-
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
-
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
-
-## Copyright and License
-
-Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-agency/blob/gh-pages/LICENSE) license.
