@@ -23,7 +23,7 @@ Exeatlog is a cutting-edge web-based application designed to revolutionize the w
 
 ## Demo
 
-Check out the [video](https://www.youtube.com/watch?v=UcyUszI0-LE&t=90s) to see a national television broadcast on Exeatlog, how it works and its impact.
+Check out this [video](https://www.youtube.com/watch?v=UcyUszI0-LE&t=90s) to see a national television broadcast on Exeatlog, how it works and its impact.
 
 
 ### Installation
